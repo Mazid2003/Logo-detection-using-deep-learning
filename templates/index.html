@@ -1,0 +1,99 @@
+<html>
+<head>
+    <title>Logo Detection</title>
+</head>
+
+<body>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+         }
+         body {
+    font-family: Arial, sans-serif;
+    background-color: #05002e;
+         }
+         .container {
+    max-width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #8ed4f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+         }
+         .title {
+    text-align: center;
+    margin-bottom: 20px;
+         }
+         .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        }
+        .file-input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+            }
+            .submit-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+            }
+            .submit-btn:hover {
+    background-color: #0056b3;
+}
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+marquee{
+    color: #afe4f8;
+}
+    </style>
+    <div class="container">
+        <h1 class="title">Logo Detection</h1>    
+    <!--<h5>Upload an Image for Logo Detection</h5>-->
+    <form id="uploadForm" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" id="fileInput" name="file" accept="image/*">
+        <button type="submit">Upload</button>
+    </form>
+    <p id="result"></p>
+    </div>
+    <marquee> Logos are many but the original logo is one</marquee>
+
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            let formData = new FormData();
+            formData.append('file', document.getElementById('fileInput').files[0]);
+
+            try {
+                let response = await fetch('/predict/', {
+                    method: 'POST',
+                    body: formData
+                });
+                let data = await response.json();
+                document.getElementById('result').innerText = `Predicted Class: ${data.prediction}, Confidence: ${data.confidence}`;
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('result').innerText = 'Error Predicting, Please try again';
+            }
+        });
+    </script>
+</body>
+</html>
