@@ -1,17 +1,44 @@
-NOTE: Ignore the errors and run the exact code to get the result.
+**🔍 Logo Detection Using Deep Learning**
+A deep learning-based logo detection system that identifies logos in images with high accuracy. This project utilizes a CNN-VGG19 model trained to detect and classify logos, achieving an impressive 94.2% accuracy. The frontend is integrated using Django, allowing users to upload an image and get instant logo detection results.
 
-      Change the dataset paths with your original datasets.
+**✨ Features:**
 
-Logo detection is a deep learning project where it detects the logos from the images. In this project i've used a CNN-VGGI9 algorithm to train the model and by using this 
-algorithm i've achieved an accuracy of 94.2% which means the model is trained well. Along with that i've used Django (A popular python framework) to integrate the frontend of the 
-project where it consists an input and and submit button whenever an user gives an image of a logo and clicks on the submit button then our model starts running at the 
-backend and gives the result as what logo it is and if the logo is original then it generates the output otherwise it doesn't generate anything which means the logo is not genuine.
+✅ CNN-VGG19 Model for high-accuracy logo detection
 
-You can get the dataset from the kaggle, Roboflow and some other sources.
+✅ 94.2% Accuracy in identifying logos
 
-DJANGO Files settings.py, urls.py, and views.py are the files which are present in django environment. once you create a virtual environment and install django there, these files 
-are generated and we have to make changes which are necessary for our code.
+✅ User-Friendly Web Interface powered by Django
 
-model.py is a python code in django environment where it consists of the class names of your dataset in the form list.
+✅ Detects Genuine & Fake Logos (Only original logos generate an output)
 
-templates is a folder where it consists of frontend and designing part of the model.
+**🔧 Technologies Used:**
+
+Deep Learning: CNN - VGG19
+
+Framework: Django (Python)
+
+Frontend: HTML, CSS, JavaScript
+
+Dataset: Available on Kaggle, Roboflow, and other sources
+
+**📂 Repository Contents:**
+
+model.py – Contains the class names of the dataset in a list
+
+settings.py, urls.py, views.py – Django backend configuration
+
+templates/ – Contains frontend UI for image upload and results display
+
+**🚀 How It Works:**
+
+1️⃣ User uploads a logo image through the web interface
+
+2️⃣ The VGG19 model processes the image and identifies the logo
+
+3️⃣ If the logo is genuine, the system displays the result; otherwise, no output is generated
+
+**⚠️ Note:**
+
+Ignore any minor errors and run the exact code to get the results
+
+This project demonstrates the power of deep learning in brand authentication and counterfeit detection. 🚀
