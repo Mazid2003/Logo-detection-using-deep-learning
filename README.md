@@ -1,4 +1,5 @@
-**🔍 Logo Detection Using Deep Learning**
+# 🔍 Logo Detection Using Deep Learning
+
 A deep learning-based logo detection system that identifies logos in images with high accuracy. This project utilizes a CNN-VGG19 model trained to detect and classify logos, achieving an impressive 94.2% accuracy. The frontend is integrated using Django, allowing users to upload an image and get instant logo detection results.
 
 **✨ Features:**
