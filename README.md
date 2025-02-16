@@ -44,7 +44,7 @@ Ignore any minor errors and run the exact code to get the results
 
 This project demonstrates the power of deep learning in brand authentication and counterfeit detection. 🚀
 
-📜 License
+**📜 License**
 
 This project is open-source under the MIT License. Feel free to use and
 modify it! 🚀
