@@ -1,1 +1,55 @@
+📌 Requirements
 
+1️⃣ Hardware Requirements
+
+A system with a dedicated GPU (recommended for faster model inference)
+Minimum 8GB RAM (16GB+ preferred)
+At least 10GB of free storage (for datasets and dependencies)
+
+2️⃣ Software & Dependencies
+
+Operating System: Windows / Linux / macOS
+Python Version: 3.8+
+Libraries & Frameworks:
+
+pip install tensorflow keras numpy pandas opencv-python pillow django
+tensorflow & keras – For deep learning (VGG19 model)
+numpy & pandas – For data processing
+opencv-python – For image handling
+pillow – For image processing in Django
+django – For the web framework
+
+3️⃣ Dataset Sources
+Kaggle / Roboflow – Pre-labeled logo datasets
+Custom Dataset – Train your model with brand-specific images
+
+4️⃣ Model Training
+Use Google Colab (with GPU) or a local setup with TensorFlow
+Fine-tune VGG19 for logo classification
+Convert the trained model into a .h5 file for Django integration
+
+🚀 Steps to Add This Project to GitHub
+
+1️⃣ Initialize a Git Repository
+
+git init
+
+2️⃣ Add Files
+
+git add .
+
+3️⃣ Commit Changes
+
+git commit -m "Initial commit - Logo Detection Using Deep Learning"
+
+4️⃣ Create a New GitHub Repository
+
+Go to GitHub → Click New Repository
+Name it Logo-Detection-DeepLearning
+Copy the repository URL
+
+5️⃣ Push Your Code
+
+git remote add origin <https://github.com/Mazid2003/Logo-detection-using-deep-learning>
+git branch -M main
+git push -u origin main
