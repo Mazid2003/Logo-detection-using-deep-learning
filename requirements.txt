@@ -40,15 +40,9 @@ git add .
 
 3️⃣ Commit Changes
 
-git commit -m "Initial commit - Logo Detection Using Deep Learning"
+git commit -m "Initial commit - Logo-Detection-Using-Deep-Learning"
 
-4️⃣ Create a New GitHub Repository
-
-Go to GitHub → Click New Repository
-Name it Logo-Detection-DeepLearning
-Copy the repository URL
-
-5️⃣ Push Your Code
+4️⃣  Push Your Code
 
 git remote add origin <https://github.com/Mazid2003/Logo-detection-using-deep-learning>
 git branch -M main
