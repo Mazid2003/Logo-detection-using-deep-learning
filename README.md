@@ -30,6 +30,8 @@ settings.py, urls.py, views.py – Django backend configuration
 
 templates/ – Contains frontend UI for image upload and results display
 
+In this templates folder index.html and style.css file are present
+
 **🚀 How It Works:**
 
 1️⃣ User uploads a logo image through the web interface
