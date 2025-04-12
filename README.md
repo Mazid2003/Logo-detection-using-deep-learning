@@ -42,6 +42,10 @@ In this templates folder index.html and style.css file are present
 
 **Screenshots**
 
+**Methodology**
+
+![image](https://github.com/user-attachments/assets/d82a90fe-7279-4eb8-8410-dc2152edb800)
+
 **Example 1:**
 
 ![cnn1](https://github.com/user-attachments/assets/7c4e9841-af46-423f-b33d-e2c4d780ad12)
