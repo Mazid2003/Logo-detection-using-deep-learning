@@ -50,6 +50,7 @@ In this templates folder index.html and style.css file are present
 
 **Example 2:**
 
+![output2 1](https://github.com/user-attachments/assets/ef40a3ea-7dd8-4ffb-94ac-ce45bf230636)
 
 
 **⚠️ Note:**
