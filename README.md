@@ -52,6 +52,7 @@ In this templates folder index.html and style.css file are present
 
 ![output2 1](https://github.com/user-attachments/assets/ef40a3ea-7dd8-4ffb-94ac-ce45bf230636)
 
+![output2](https://github.com/user-attachments/assets/bcbf371c-9796-4596-94a2-0c8c5e1c513d)
 
 **⚠️ Note:**
 
