@@ -40,6 +40,18 @@ In this templates folder index.html and style.css file are present
 
 3️⃣ If the logo is genuine, the system displays the result; otherwise, no output is generated
 
+**Screenshots**
+
+**Example 1:**
+
+![cnn1](https://github.com/user-attachments/assets/7c4e9841-af46-423f-b33d-e2c4d780ad12)
+
+![cnn2](https://github.com/user-attachments/assets/8810f084-fbd9-459c-aa94-081a98262aaa)
+
+**Example 2:**
+
+
+
 **⚠️ Note:**
 
 Ignore any minor errors and run the exact code to get the results
