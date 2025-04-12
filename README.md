@@ -44,7 +44,7 @@ In this templates folder index.html and style.css file are present
 
 **Dataset Evaluation**
 
-![image](https://github.com/user-attachments/assets/a7176c97-68e8-4bbd-8c65-8c72600b26dc)
+![image](https://github.com/user-attachments/assets/a7176c97-68e8-4bbd-8c65-8c72600b26dc) , ![image](https://github.com/user-attachments/assets/79b9102d-27c4-4b07-9642-657f4128548a)
 
 **Methodology**
 
